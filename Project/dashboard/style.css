@@ -1,0 +1,135 @@
+body {
+  font-family: Roboto;
+  background-image: url("v.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#container {
+  height: 525px;
+  width: 360px;
+  margin: 100px auto;
+  background: #bebd79;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: #0d4880;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 10px 62px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: central;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+ 
+}
+
+form input[type="text"] {
+  width=90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#billamt {
+  font-size: 14px;
+  /*color: #2980b9;*/
+  color: #dc3545;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#billamt:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#peopleamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #dc3545;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+button, .Logout {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #AD133A;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #4c2827;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalDiscount {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalDiscount:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalDiscount sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalDiscount small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.Logout {
+  position:absolute;
+  padding: 10px;
+  margin: -20px 90%;
+  width: 90px;
+  height: 30px;
+
+}
+.Logout a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  
+}
